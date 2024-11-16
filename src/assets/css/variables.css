@@ -1,0 +1,23 @@
+:root {
+  /* Main Font */
+  --mabi-primary-font: "Roboto", sans-serif;
+
+  /* Text Colors */
+  --mabi-text-white: #ffffff;
+  --mabi-primary-text-color: #0f172a;
+  --mabi-secondary-text-color: #cbd5e1;
+  --mabi-footer-text-color: #e2e8f0;
+
+  /* Background Colors */
+  --mabi-primary-bg-color: #f1f5f9;
+  --mabi-secondary-bg-color: #ffffff;
+  --mabi-footer-bg-color: #475569;
+
+  /* Card Colors */
+  --mabi-first-card-color: #9ca3af;
+  --mabi-second-card-color: #6b7280;
+  --mabi-third-card-color: #4b5563;
+
+  /* Shadows */
+  --mabi-shadow-color: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

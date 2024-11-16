@@ -1,0 +1,11 @@
+/* Import CSS Fonts */
+@import "./fonts.css";
+
+/* Import Main CSS styling file */
+@import "./main.css";
+
+/* Import CSS Reset */
+@import "./reset.css";
+
+/* Import CSS Variables */
+@import "./variables.css";
