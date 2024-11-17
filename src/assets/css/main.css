@@ -1,0 +1,139 @@
+/* HERO SECTION */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 730px;
+  padding: 30px 70px;
+  background-image: url("../img/beginning-shape.png");
+  background-color: var(--mabi-primary-bg-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  list-style: none;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 400px;
+  gap: 20px;
+}
+
+.nav-icon {
+  padding: 0px 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--mabi-white);
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline var(--mabi-white) 2px;
+  text-underline-offset: 10px;
+}
+
+.second-btn {
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  background-color: var(--mabi-white);
+  color: var(--mabi-primary-text-color);
+  border: 2px solid var(--mabi-white);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.second-btn:hover {
+  background-color: var(--mabi-hover-color);
+}
+
+.first-btn {
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: var(--mabi-white);
+  background-color: transparent;
+  border: 2px solid var(--mabi-white);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.first-btn:hover {
+  background-color: var(--mabi-hover-color);
+}
+
+.cta-button {
+  padding: 12px 35px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: var(--mabi-white);
+  background-color: transparent;
+  border: 2px solid var(--mabi-white);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.cta-button:hover {
+  background-color: var(--mabi-hover-color);
+}
+
+.bottom-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.hero-section .bottom-hero h1 {
+  color: var(--mabi-white);
+  font-weight: 700;
+  font-size: 70px;
+  padding-bottom: 10px;
+}
+
+.hero-section .bottom-hero h2 {
+  color: var(--mabi-secondary-text-color);
+  font-weight: 700;
+  font-size: 54px;
+}
+.hero-section .bottom-hero p {
+  margin: 20px 0;
+  color: var(--mabi-white);
+  line-height: 37px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hero-section .content {
+  margin-top: 140px;
+}
