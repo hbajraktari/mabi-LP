@@ -135,5 +135,27 @@
 }
 
 .hero-section .content {
-  margin-top: 140px;
+  margin-top: 90px;
+}
+
+/* OUR TOP PARTNERS */
+.otp-section {
+  background-color: var(--mabi-primary-bg-color);
+  height: 479px;
+  justify-content: center;
+  text-align: center;
+}
+
+.otp-section h1 {
+  padding: 70px;
+  font-weight: 800;
+  font-size: 50px;
+  color: var(--mabi-primary-text-color);
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 30px;
 }
