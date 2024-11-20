@@ -5,7 +5,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   height: 730px;
-  padding: 30px 70px;
+  padding: 30px 90px;
   background-image: url("../img/beginning-shape.png");
   background-color: var(--mabi-primary-bg-color);
   background-size: cover;
@@ -36,7 +36,7 @@
 .right-nav {
   display: flex;
   align-items: center;
-  padding-left: 400px;
+  padding-left: 350px;
   gap: 20px;
 }
 
@@ -158,4 +158,56 @@
   justify-content: center;
   gap: 60px;
   padding: 30px;
+}
+
+/* HOW IT WORKS */
+.hiw-section {
+  height: 590px;
+  background-color: var(--mabi-white);
+}
+
+.hiw-section h1 {
+  text-align: center;
+  padding: 80px;
+  font-weight: 800;
+  font-size: 50px;
+  color: var(--mabi-primary-text-color);
+}
+
+.hiw-cards {
+  display: flex;
+  justify-content: center;
+  gap: 96px;
+  padding: 0px 90px;
+
+}
+
+.hiw-card {
+  border-radius: 10px;
+  padding: 10px 25px;
+  width: 373.33px;
+  height: 288px;
+  box-shadow: var(--mabi-shadow-color);
+  text-align: center;
+}
+
+.card-1 {
+  border: 5px solid var(--mabi-first-card-color);
+}
+.card-2 {
+  border: 5px solid var(--mabi-second-card-color);
+}
+.card-3 {
+  border: 5px solid var(--mabi-third-card-color);
+}
+
+.hiw-section p {
+  color: var(--mabi-primary-text-color);
+  line-height: 37px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hiw-section img {
+  padding: 13px;
 }
