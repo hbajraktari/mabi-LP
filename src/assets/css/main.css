@@ -301,3 +301,36 @@
   font-size: 20px;
   font-weight: 400;
 }
+
+/* LAUNCH SECTION */
+.launch-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: left;
+  background-color: var(--mabi-primary-bg-color);
+  height: 677px;
+  background-image: url("../img/end-shape.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 50px;
+}
+
+.launch-section .content, .context{
+  margin-top: 100px;
+}
+
+.launch-section .context h1 {
+  font-weight: 800;
+  font-size: 50px;
+  color: var(--mabi-white);
+}
+
+.launch-section .context p {
+  margin-top: 20px;
+  color: var(--mabi-white);
+  line-height: 37px;
+  font-size: 20px;
+  font-weight: 400;
+}
