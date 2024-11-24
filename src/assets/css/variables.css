@@ -7,6 +7,8 @@
   --mabi-primary-text-color: #0f172a;
   --mabi-secondary-text-color: #cbd5e1;
   --mabi-footer-text-color: #e2e8f0;
+  --mabi-footer-beta-color: #6b21a8;
+  --mabi-footer-beta-bg-color: #f3e8ff;
 
   /* Background Colors */
   --mabi-primary-bg-color: #f1f5f9;
@@ -21,4 +23,5 @@
   /* Extra */
   --mabi-shadow-color: 0 4px 8px rgba(0, 0, 0, 0.1);
   --mabi-hover-color: rgba(255, 255, 255, 0.3);
+  --mabi-footer-border-color: #3e4a61;
 }
